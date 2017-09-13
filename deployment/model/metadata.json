@@ -1,0 +1,136 @@
+{
+  "RuntimeVersion": "7.5.1",
+  "ProjectID": "17e9b19b-46d3-4e46-9383-9615a39042d5",
+  "ProjectName": "Lushman E-commerce",
+  "ModelVersion": "unversioned",
+  "Description": "",
+  "AdminUser": "MxAdmin",
+  "Roles": {
+    "8dd52bfa-6d7e-453b-b506-303c0a3d9567": {
+      "Name": "Administrator",
+      "ManageableRoles": [
+        "8dd52bfa-6d7e-453b-b506-303c0a3d9567",
+        "53f5d6fa-6da9-4a71-b011-454ec052cce8",
+        "d0c40363-e0b5-4225-8f37-6f19634739ac"
+      ]
+    },
+    "53f5d6fa-6da9-4a71-b011-454ec052cce8": {
+      "Name": "User"
+    },
+    "d0c40363-e0b5-4225-8f37-6f19634739ac": {
+      "Name": "Customer"
+    }
+  },
+  "AdminRole": "8dd52bfa-6d7e-453b-b506-303c0a3d9567",
+  "Constants": [
+    {
+      "Name": "EmailTemplate.EmailAddressSeparator",
+      "Type": "String",
+      "Description": "",
+      "DefaultValue": ","
+    },
+    {
+      "Name": "EmailTemplate.EmailLogRetention",
+      "Type": "Integer",
+      "Description": "The amount of days to preserve error messages.",
+      "DefaultValue": "30"
+    },
+    {
+      "Name": "EmailTemplate.EmailRetention",
+      "Type": "Integer",
+      "Description": "The amount of days to preserve emails which were sent.",
+      "DefaultValue": "30"
+    },
+    {
+      "Name": "EmailTemplate.LogNode",
+      "Type": "String",
+      "Description": "",
+      "DefaultValue": "Email"
+    },
+    {
+      "Name": "Encryption.EncryptionKey",
+      "Type": "String",
+      "Description": "This key will be used to encrypt and decrypt values.\r\nThe length of this key must be 16 characters.",
+      "DefaultValue": "1234567890123456"
+    },
+    {
+      "Name": "Encryption.EncryptionPrefix",
+      "Type": "String",
+      "Description": "Prefix for stored encrypted values.\r\nThis value is used to determine whether the value has been already encrypted.",
+      "DefaultValue": "{AES}"
+    },
+    {
+      "Name": "Encryption.LogNode",
+      "Type": "String",
+      "Description": "Node which appears in log messages for this module.",
+      "DefaultValue": "Encryption"
+    }
+  ],
+  "ScheduledEvents": [
+    {
+      "Name": "EmailTemplate.Cleanup",
+      "Description": ""
+    },
+    {
+      "Name": "EmailTemplate.SendQueuedEmails",
+      "Description": ""
+    }
+  ],
+  "Configuration": {
+    "SourceDatabaseType": "HSQLDB",
+    "SourceDatabaseName": "default",
+    "SourceBuiltInDatabasePath": "model/sampledata/data/database"
+  },
+  "RequestHandlers": [
+    {
+      "Name": "/api/",
+      "DefaultEnabled": true,
+      "MatchExactly": false
+    },
+    {
+      "Name": "/link/",
+      "DefaultEnabled": true,
+      "MatchExactly": false
+    },
+    {
+      "Name": "/ws/",
+      "DefaultEnabled": false,
+      "MatchExactly": false
+    },
+    {
+      "Name": "/ws-doc/",
+      "DefaultEnabled": false,
+      "MatchExactly": false
+    },
+    {
+      "Name": "/rest/",
+      "DefaultEnabled": false,
+      "MatchExactly": false
+    },
+    {
+      "Name": "/rest-doc/",
+      "DefaultEnabled": false,
+      "MatchExactly": false
+    },
+    {
+      "Name": "/odata/",
+      "DefaultEnabled": false,
+      "MatchExactly": false
+    },
+    {
+      "Name": "/odata-doc/",
+      "DefaultEnabled": false,
+      "MatchExactly": false
+    },
+    {
+      "Name": "/api-doc/",
+      "DefaultEnabled": true,
+      "MatchExactly": false
+    },
+    {
+      "Name": "/p/",
+      "DefaultEnabled": false,
+      "MatchExactly": false
+    }
+  ]
+}

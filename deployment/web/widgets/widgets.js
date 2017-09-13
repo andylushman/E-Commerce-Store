@@ -1,0 +1,1 @@
+﻿define(["BootstrapRTE/widget/BootstrapRTE", "MobileFeatures/widget/MobileFeatures"], {});

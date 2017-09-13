@@ -1,0 +1,10 @@
+﻿Buildfile: C:\Users\Andy\Documents\Mendix\Training\Lushman E-commerce-main\deployment\build_core.xml
+
+deploy:
+    [unzip] Expanding: C:\Program Files\Mendix\7.5.1\modeler\deployment.mxz into C:\Users\Andy\Documents\Mendix\Training\Lushman E-commerce-main\deployment
+
+BUILD SUCCESSFUL
+Total time: 0 seconds
+
+
+

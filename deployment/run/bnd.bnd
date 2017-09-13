@@ -1,0 +1,6 @@
+Private-Package: system, administration.proxies, administration.proxies.microflows, cart.proxies, cart.proxies.microflows, email.proxies.microflows, emailtemplate.actions, emailtemplate.mail, emailtemplate.proxies, emailtemplate.proxies.constants, emailtemplate.proxies.microflows, encryption.actions, encryption.pgp, encryption.proxies, encryption.proxies.constants, encryption.proxies.microflows, inviteapi.proxies.microflows, main.proxies, main.proxies.microflows, mxmodelreflection, mxmodelreflection.actions, mxmodelreflection.metamodelBuilder, mxmodelreflection.proxies, mxmodelreflection.proxies.microflows, permissionsapi.proxies, permissionsapi.proxies.microflows, profileservice.proxies, profileservice.proxies.microflows, system, system.actions, system.proxies, system.proxies.microflows
+Import-Package: *;resolution:=optional
+Service-Component: *
+Include-Resource: ../../userlib/;recursive:=true;filter:=!*.jar
+Bundle-Name: Lushman_E_commerce_main
+Bundle-SymbolicName: project

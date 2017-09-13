@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="javasource"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="C:/Program Files/Mendix/7.5.1/runtime/bundles/biz.aQute.bnd.bndlib.jar"/><classpathentry kind="lib" path="C:/Program Files/Mendix/7.5.1/runtime/bundles/com.mendix.json.jar"/><classpathentry kind="lib" path="C:/Program Files/Mendix/7.5.1/runtime/bundles/com.mendix.logging-api.jar"/><classpathentry kind="lib" path="C:/Program Files/Mendix/7.5.1/runtime/bundles/com.mendix.m2ee-api.jar"/><classpathentry kind="lib" path="C:/Program Files/Mendix/7.5.1/runtime/bundles/com.mendix.public-api.jar"/><classpathentry kind="lib" path="C:/Program Files/Mendix/7.5.1/runtime/bundles/javax.servlet.jar"/>
+	<classpathentry kind="lib" path="userlib/bcpg-jdk15on-150.jar"/><classpathentry kind="lib" path="userlib/bcpkix-jdk15on-150.jar"/><classpathentry kind="lib" path="userlib/bcprov-jdk15on-150.jar"/><classpathentry kind="lib" path="userlib/com.sun.mail.javax.mail-1.4.5.jar"/><classpathentry kind="lib" path="userlib/commons-codec-1.10.jar"/><classpathentry kind="lib" path="userlib/commons-email-1.4.jar"/><classpathentry kind="lib" path="userlib/org.apache.commons.io-2.3.0.jar"/><classpathentry kind="lib" path="userlib/org.apache.servicemix.bundles.commons-codec-1.3.0.jar"/>
+	<classpathentry kind="output" path="deployment/run/bin"/>
+</classpath>

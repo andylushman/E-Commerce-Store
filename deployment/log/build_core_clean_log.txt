@@ -1,0 +1,9 @@
+﻿Buildfile: C:\Users\Andy\Documents\Mendix\Projects\Training\TimeSeries E-commerce-main\deployment\build_core.xml
+
+clean:
+
+BUILD SUCCESSFUL
+Total time: 0 seconds
+
+
+
